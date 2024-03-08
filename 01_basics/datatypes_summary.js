@@ -37,3 +37,27 @@ let kageyama = {
 const myFunction = function(){
     console.log("hello world")
 }
+
+
+//+++++++++++++++++++++++++++//
+
+// Stack(Prmitive types use Stack Memory), Heap (reference type)
+
+let myYoutubeName = "james"
+let anotherName = myYoutubeName
+anotherName = "John"
+console.log(myYoutubeName)
+console.log(anotherName)
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "changed"
+console.log(userOne.email)
+
